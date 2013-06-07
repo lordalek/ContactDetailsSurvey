@@ -38,36 +38,7 @@
 		</div> <!--  end div -->
 		<div class="span6">
 			<div class="hero-unit">
-				<form action="ContactDetails" id="contactDeails" method="post">
-				<table width="100%" border="0">
-				<tr>
-					<td style="width:30%">Navn:</td>
-					<td style="width:70%"> <input type="text" name="fullName"style="width:100%" required="required"></td>
-				</tr>
-				<tr>
-					<td style="width:30%">Adresse:</td>
-					<td style="width:70%"> <input type="text" name="address" style="width:100%"></td>
-				</tr>
-				<tr>
-					<td><div>Postnr:  <input type="text" name="zipCode" style="width:50%" maxlength="4"></div> </td>
-					<td><div>Poststed: <input type="text" style="width:50%" name="poststed"></div></td>
-				</tr>
-				<tr>
-					<td>Epost: </td>
-					<td> <input type="email" style="width:100%" name="email" required="required"></td>
-				</tr>
-				<tr>
-					<td>Telefon: </td>
-					<td> <input type="text" style="width:100%" name="phoneNumber" required="required"></td>
-				</tr>
-				</table>
-				
-				<input type="checkbox" name="agreed" required="required"> Jeg har lest og aksepterer <a href="db.no">betingelsene</a> 
-				<br>
-				<br>
-								
-				<input type="submit" value="Send inn" class="btn">
-				</form>
+				<p>Takk for din registrering!</p>
 			</div>
 		</div> <!-- end div -->
 	</div> <!-- end row-fluid -->

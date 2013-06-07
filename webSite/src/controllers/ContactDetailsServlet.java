@@ -22,8 +22,11 @@ public class ContactDetailsServlet extends HttpServlet{
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		String fullName = request.getParameter("fullName");
+		String address = request.getParameter("address");
+		
 		System.out.println(fullName);
-		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/index.jsp");
+		System.out.println(address);
+		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher("/thankyou.jsp");
 		dispatcher.forward(request, response);
 	}
 	
